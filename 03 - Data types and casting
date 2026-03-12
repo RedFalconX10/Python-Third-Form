@@ -43,6 +43,13 @@
 		○ Calculate a 10% discount (Price multiplied by 0.9) and print: "The new price for [item] is [discounted price]", where ‘[item]’ and ‘[discounted price]’ is where you reference your variables.
 	
 	Answer: 
+item = input("Enter name of item: ")
+price = float(input("enter price of item: "))
+
+discount = item_price * 0.9
+
+new_price = discount
+
 	
 	
 	

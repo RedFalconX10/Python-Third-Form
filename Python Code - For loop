@@ -1,0 +1,75 @@
+for i in range(10):
+  print("kebab")
+
+for i in range(0, 25, 3):
+    print(i)
+
+name = str(input("Input your name>>>"))
+loop = int(input("Display Number "))
+for i in range(loop):
+  print(name)
+
+number = int(input("Enter a times table: "))
+for i in range(1,13):
+  print(i ,"x", number, "=", i*number)
+
+print("showing the",number,"times table")
+
+print (i)
+print("!!Blast off!!")
+
+rainbow =["red","orange","yellow","green","blue","indigo", "violet"]
+number = 0 
+
+for i in rainbow:
+  number = number + 1
+  print ("Colour",number,"is", i)
+
+num = int(input("enter a number below 100: "))
+
+for i in range(num, 0, -1):
+  print(i)
+
+import random
+
+for i in range(6):
+  a = random.randint(0,50)
+  print(a)
+
+import random
+
+money = [0, 10, 100, 1000, 10000, 100000]
+array = random.choice(money)
+
+for i in range(1, 9):
+  print("player", i,"gets", array,"of money" )
+  array = random.choice(money)
+
+
+houses = int(input("how many houses are booked in?"))
+
+for i in range(1, houses+1):
+  print("For house", i)
+  walls = int(input("how many walls need to be painted"))
+  for i in range(1, walls+1):
+      print("for wall", i)
+      colour = input("What colour is it?")
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

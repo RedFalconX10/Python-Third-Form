@@ -1,41 +1,42 @@
+#1
 for i in range(10):
   print("kebab")
 
 for i in range(0, 25, 3):
     print(i)
-
+#2
 name = str(input("Input your name>>>"))
 loop = int(input("Display Number "))
 for i in range(loop):
   print(name)
-
+#3
 number = int(input("Enter a times table: "))
 for i in range(1,13):
   print(i ,"x", number, "=", i*number)
 
 print("showing the",number,"times table")
-
+#4
 print (i)
 print("!!Blast off!!")
-
+#5
 rainbow =["red","orange","yellow","green","blue","indigo", "violet"]
 number = 0 
 
 for i in rainbow:
   number = number + 1
   print ("Colour",number,"is", i)
-
+#6
 num = int(input("enter a number below 100: "))
 
 for i in range(num, 0, -1):
   print(i)
-
+#7
 import random
 
 for i in range(6):
   a = random.randint(0,50)
   print(a)
-
+#8
 import random
 
 money = [0, 10, 100, 1000, 10000, 100000]
@@ -45,7 +46,7 @@ for i in range(1, 9):
   print("player", i,"gets", array,"of money" )
   array = random.choice(money)
 
-
+#9
 houses = int(input("how many houses are booked in?"))
 
 for i in range(1, houses+1):
